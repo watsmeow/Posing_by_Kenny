@@ -22,7 +22,15 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {},
+    extend: {
+      colors: {
+        'light-red': '#b90504',
+        'dark-red': '#b90100',
+        'dark-grey': '#333333',
+        'med-grey': '#e8e8e8',
+        'light-grey': '#f6f6f6',
+      },
+    },
   },
   plugins: [],
 }

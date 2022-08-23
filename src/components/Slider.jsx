@@ -40,7 +40,7 @@ function Slider() {
                             <img 
                             className='object-cover'
                             src={slides.src} 
-                            alt="slide-image" />
+                            alt="slide" />
                         </div>
                         <div className='description flex flex-col flex-1 justify-center items-center'>
                             <h2 className={header2}>{slides.content.h2}</h2>

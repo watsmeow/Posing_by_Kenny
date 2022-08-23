@@ -5,10 +5,10 @@ const Announce = () => {
     const handleClose = () => {
         setAnnounceStyle(announceStyle + " hidden")
     }
-    const[announceStyle, setAnnounceStyle] = useState('bg-[#B5362E] font-bold text-white flex items-center justify-center p-[10px]')
+    const[announceStyle, setAnnounceStyle] = useState('bg-light-grey font-bold text-black flex items-center justify-center p-[10px]')
   return (
     <div className={announceStyle}>
-        <h2>End of Summer Sale!</h2>
+        <h2>Don't forget to check out the Dead Center apparel!</h2>
         <Close className='cursor-pointer' onClick={handleClose}/>
     </div>
   )
